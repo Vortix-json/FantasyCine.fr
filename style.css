@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+body{
+  background: url("img/background.jpg") fixed 100%;
+  font-family:'Cinzel';
+  background-repeat: no-repeat;
+}
+.title{
+  color:#fff;
+  position:absolute;
+  top:13%;
+  left:17%;
+  font-size: 40px;
+  filter:drop-shadow(1px 0px 2px #ab6f15);
+}
+
+.Banniere {
+  color: #f0f8ff;
+  font-size: 20px;
+  margin: 10px;
+  margin-top: 40px;
+  background: url("Img/Banniere.jpg");
+  background-size: 100%;
+  padding: 50px 100px;
+  border-radius: 5px;
+  list-style-type: none;
+  box-shadow: #000000 0px 0px 50px;
+
+}
+.grille {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 5px;
+}
+h1{
+  text-align: center;
+  filter : drop-shadow(1px 0px 2px #ab1515);
+  position:absolute;
+  top:60%;
+  text-align: center;
+}
+.opt-container{
+  color:#ffffff;
+  margin: 20px;
+  font-size: 20px;
+  background-color: #4e0000;
+  padding: 100px 200px;
+  border-radius: 5px;
+  box-shadow: #000000 0px 0px 50px;
+  text-decoration: none;
+}
+.opt-container a {
+  color:#fff;
+}
+.intro {
+  padding: 14px 31px;
+  font-size: 16px;
+  background: url("https://media.giphy.com/media/UM7CAc4LL37Vu/giphy.gif") fixed 100%;
+  border: 1.2px solid #f8be00;
+  color: #fff;
+  transition: all .5s;
+  border-radius: 8px;
+  position:absolute;
+  left:40%;
+  top:50%;
+  cursor: pointer;
+}
+.intro:hover {
+    background-color: #8800006d;
+}
+
+.image1{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  transform: rotate(-10deg);
+  top: 85%;
+
+}
+.credits {
+  text-align: left;
+  background: #2c2c2ca7;
+  position: absolute;
+  top: 1000px;
+  padding: 60px 500px;
+}
