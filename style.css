@@ -3,6 +3,7 @@ body{
   background: url("img/background.jpg") fixed 100%;
   font-family:'Cinzel';
   background-repeat: no-repeat;
+  z-index: 0;
 }
 .title{
   color:#fff;
