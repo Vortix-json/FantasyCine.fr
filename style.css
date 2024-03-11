@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 body{
   background: url("img/background.jpg") fixed 100%;
+  background-size: cover;
   font-family:'Cinzel';
   background-repeat: no-repeat;
   z-index: 0;
